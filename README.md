@@ -1,0 +1,1 @@
+# auto_currencyRates_bot
