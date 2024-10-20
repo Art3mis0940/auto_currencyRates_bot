@@ -205,7 +205,7 @@ class MoexDownloader:
         server.ehlo()
         server.starttls()
         server.ehlo()
-        server.login(from_email, "zcor saly aion tbfv")
+        server.login(from_email, "")
         #server.auth_plain()
         text = msg.as_string()
         server.sendmail(from_email, to_email, text)
